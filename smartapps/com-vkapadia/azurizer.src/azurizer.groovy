@@ -34,8 +34,8 @@ preferences {
         input "funckey", "string", required: true, title: "Key"
 	}
     section("Devices to Track") {
-        input "switches", "capability.switch", multiple: true
-        input "sensors", "capability.sensor", multiple: true
+        input "switches", "capability.switch", multiple: true, required: false
+        input "sensors", "capability.sensor", multiple: true, required: false
     }
 }
 
